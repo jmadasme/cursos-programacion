@@ -665,7 +665,58 @@ La documentación se reparte en [`docs/datasheet.md`](docs/datasheet.md) (ficha 
 
 Para colaborar, abre un issue o pull request con la sección a corregir, la evidencia (`unzip -l`, `sha256sum` o un mensaje de error) y el cambio propuesto. **No modifiques los ZIP**; documenta cualquier corrección de código sobre una copia extraída. No agregues credenciales, rutas personales ni datos reales.
 
-### Licencia
+### Ficha de evaluación
+
+**Madurez global: 3.5/5**
+
+| Criterio | Nota | Evidencia |
+|---|---:|---|
+| Madurez | 2/5 | Material didáctico histórico, sin compilación verificada ni mantenimiento moderno alguno. |
+| Reproducibilidad | 3/5 | ZIP con hash y estructura clara, pero el código C exige adaptaciones para compilar. |
+| Documentación | 5/5 | README con inventario, hashes, limitaciones y guía de conversión de documentos. |
+| Honestidad de límites | 5/5 | Declara análisis estático, archivos faltantes y que el curso de C es privado. |
+| Valor demostrativo | 3/5 | Útil como archivo docente; menos relevante para prácticas de programación actuales. |
+| Facilidad de despliegue | 3/5 | Basta descomprimir, pero ejecutar el material requiere ajustar toolchains antiguas. |
+
+Archivo educativo honesto y ordenado, con valor histórico y didáctico; su código antiguo y los laboratorios incompletos impiden tratarlo como material listo para usar en clase.
+
+## Lo que no funcionó
+
+### Curso-Lenguaje-C — Código de Turbo C
+
+Los programas usan conio.h, dos.h, gets y void main, propios de Turbo C y DOS, y no compilan en un entorno moderno sin ajustes. El README documenta la necesidad de -std=gnu89, reemplazar gets y quitar las cabeceras de consola; no se reescribió el material para preservar el original.
+
+### Curso-Lenguaje-C — Laboratorios incompletos
+
+Dos ejercicios no cierran: ptofunc.txt incluye una cabecera reparar.h inexistente, y 250.txt incluye subs.h con las funciones datadd1 y datadd2 sin definir. El README los identifica como material incompleto y sugiere completarlos como ejercicio, en lugar de ocultar que no compilan.
+
+### Curso-Java — Instalación en documentos binarios
+
+Las guías de instalación de Java son seis archivos .doc de 2020, en formato binario que GitHub no previsualiza y con versiones de JDK 12 y 14 ya desactualizadas. El README propone convertirlas con antiword o LibreOffice y verificar versiones actuales; se conservaron sin editar por ser parte del paquete original.
+
+### Archivo — Solo Java es público
+
+El repositorio anuncia dos cursos, pero el ZIP de C es privado y debe solicitarse, igual que el de Java si se quiere el binario. Quien llega esperando el paquete completo encuentra solo una mitad; el README lo aclara desde el inicio y evita prometer una descarga que no existe.
+
+## Preguntas típicas
+
+**¿Qué es este proyecto?**
+
+Un archivo de dos cursos en ZIP: Curso-Java con 44 fuentes, 47 clases y 19 módulos Maven, y Curso-Lenguaje-C con 129 archivos en estilo Turbo C.
+
+**¿Es material listo para cursar?**
+
+No. No es una plataforma ni un paquete ejecutable, y el README aclara que no se compiló ni ejecutó; es una conservación histórica con hash SHA-256.
+
+**¿Por qué el código C no compila?**
+
+Usa conio.h, dos.h, gets y void main; requiere -std=gnu89, reemplazar gets y quitar las cabeceras de consola. Además, dos laboratorios incluyen cabeceras inexistentes.
+
+**¿Qué se puede reutilizar?**
+
+Ejercicios, estructuras y progresiones didácticas de Java y C; las guías .doc deben convertirse y actualizarse, y el curso de C se solicita por privado.
+
+## Licencia
 
 Este repositorio se distribuye bajo **MIT**. El texto completo, con `Copyright (c) 2026 jmadasme`, está en [`LICENSE`](LICENSE). El material didáctico dentro de los ZIP fue producido por jmadasme; las marcas Java, Oracle, Apache NetBeans, Maven, GCC y otras pertenecen a sus titulares. La licencia MIT no concede derechos sobre marcas ni contenido de terceros.
 

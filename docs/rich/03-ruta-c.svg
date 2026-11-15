@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" aria-labelledby="tituloC descC">
+  <title id="tituloC">Mapa temático del curso de Lenguaje C</title>
+  <desc id="descC">Ocho bloques del curso de C con una distribución sugerida de 100 horas: fundamentos, control, funciones, arreglos, cadenas, punteros, estructuras y proyecto integrador.</desc>
+
+  <defs>
+    <pattern id="gridC" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#122b33" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="820" fill="#06141b"/>
+  <rect width="1200" height="820" fill="url(#gridC)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#2A9D8F"/>
+
+  <g font-family="Inter, 'Segoe UI', system-ui, sans-serif">
+    <text x="64" y="66" fill="#E6F0F3" font-size="30" font-weight="700">Ruta C · 100 horas</text>
+    <text x="64" y="94" fill="#8FA6B2" font-size="15">Fundamentos para Arduino, IoT y domótica · distribución sugerida a partir de 129 laboratorios</text>
+    <text x="1136" y="66" fill="#5B7C99" font-size="13" text-anchor="end">Curso-Lenguaje-C-100-Hras</text>
+    <text x="1136" y="88" fill="#5B7C99" font-size="13" text-anchor="end">129 .txt · 2 .h · 1 GIF</text>
+
+    <!-- Block 1 -->
+    <rect x="64" y="136" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="64" y="136" width="5" height="136" rx="2.5" fill="#5B7C99"/>
+    <circle cx="100" cy="170" r="17" fill="#102A33" stroke="#5B7C99"/>
+    <text x="100" y="175" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">01</text>
+    <text x="130" y="168" fill="#E6F0F3" font-size="17" font-weight="600">Fundamentos</text>
+    <text x="130" y="190" fill="#8FA6B2" font-size="11.5">Variables, tipos, operadores, printf y scanf</text>
+    <rect x="476" y="150" width="84" height="24" rx="12" fill="#13323D" stroke="#5B7C99"/>
+    <text x="518" y="166" fill="#A9C6D6" font-size="11" text-anchor="middle">10 h</text>
+    <text x="90" y="222" fill="#8FA6B2" font-size="11.5">0.txt–10.txt · 12.txt–21.txt · 23.txt</text>
+    <text x="90" y="244" fill="#5B7C99" font-size="11">Salida: operaciones, áreas, tablas simples</text>
+
+    <!-- Block 2 -->
+    <rect x="616" y="136" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="616" y="136" width="5" height="136" rx="2.5" fill="#457B9D"/>
+    <circle cx="652" cy="170" r="17" fill="#102A33" stroke="#457B9D"/>
+    <text x="652" y="175" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">02</text>
+    <text x="682" y="168" fill="#E6F0F3" font-size="17" font-weight="600">Control de flujo</text>
+    <text x="682" y="190" fill="#8FA6B2" font-size="11.5">if, switch, for, while, break, continue, goto</text>
+    <rect x="1028" y="150" width="84" height="24" rx="12" fill="#13323D" stroke="#457B9D"/>
+    <text x="1070" y="166" fill="#A9C6D6" font-size="11" text-anchor="middle">12 h</text>
+    <text x="642" y="222" fill="#8FA6B2" font-size="11.5">11.txt · may30 · num30 · cnumpar · vocal</text>
+    <text x="642" y="244" fill="#5B7C99" font-size="11">Incluye operadores de bits en 22.txt</text>
+
+    <!-- Block 3 -->
+    <rect x="64" y="288" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="64" y="288" width="5" height="136" rx="2.5" fill="#2A9D8F"/>
+    <circle cx="100" cy="322" r="17" fill="#102A33" stroke="#2A9D8F"/>
+    <text x="100" y="327" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">03</text>
+    <text x="130" y="320" fill="#E6F0F3" font-size="17" font-weight="600">Funciones y alcance</text>
+    <text x="130" y="342" fill="#8FA6B2" font-size="11.5">Prototipos, parámetros, retorno, recursión</text>
+    <rect x="476" y="302" width="84" height="24" rx="12" fill="#12312F" stroke="#2A9D8F"/>
+    <text x="518" y="318" fill="#8FD3C9" font-size="11" text-anchor="middle">12 h</text>
+    <text x="90" y="374" fill="#8FA6B2" font-size="11.5">23.txt · alcancev.txt · RECUR.txt · fac.txt</text>
+    <text x="90" y="396" fill="#5B7C99" font-size="11">Variables locales, globales y sombreado</text>
+
+    <!-- Block 4 -->
+    <rect x="616" y="288" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="616" y="288" width="5" height="136" rx="2.5" fill="#5B7C99"/>
+    <circle cx="652" cy="322" r="17" fill="#102A33" stroke="#5B7C99"/>
+    <text x="652" y="327" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">04</text>
+    <text x="682" y="320" fill="#E6F0F3" font-size="17" font-weight="600">Arreglos y orden</text>
+    <text x="682" y="342" fill="#8FA6B2" font-size="11.5">Burbuja, sacudida, selección, inserción</text>
+    <rect x="1028" y="302" width="84" height="24" rx="12" fill="#13323D" stroke="#5B7C99"/>
+    <text x="1070" y="318" fill="#A9C6D6" font-size="11" text-anchor="middle">14 h</text>
+    <text x="642" y="374" fill="#8FA6B2" font-size="11.5">array*.txt · burbuja · sacudida · seleccio</text>
+    <text x="642" y="396" fill="#5B7C99" font-size="11">Complejidad O(n²) y búsqueda secuencial</text>
+
+    <!-- Block 5 -->
+    <rect x="64" y="440" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="64" y="440" width="5" height="136" rx="2.5" fill="#457B9D"/>
+    <circle cx="100" cy="474" r="17" fill="#102A33" stroke="#457B9D"/>
+    <text x="100" y="479" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">05</text>
+    <text x="130" y="472" fill="#E6F0F3" font-size="17" font-weight="600">Cadenas</text>
+    <text x="130" y="494" fill="#8FA6B2" font-size="11.5">char[], char*, string.h, strtok</text>
+    <rect x="476" y="454" width="84" height="24" rx="12" fill="#13323D" stroke="#457B9D"/>
+    <text x="518" y="470" fill="#A9C6D6" font-size="11" text-anchor="middle">12 h</text>
+    <text x="90" y="526" fill="#8FA6B2" font-size="11.5">strcat · strcpy · strlen · strstr · strupr</text>
+    <text x="90" y="548" fill="#5B7C99" font-size="11">Comparación, copia, concatenación y tokens</text>
+
+    <!-- Block 6 -->
+    <rect x="616" y="440" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="616" y="440" width="5" height="136" rx="2.5" fill="#2A9D8F"/>
+    <circle cx="652" cy="474" r="17" fill="#102A33" stroke="#2A9D8F"/>
+    <text x="652" y="479" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">06</text>
+    <text x="682" y="472" fill="#E6F0F3" font-size="17" font-weight="600">Punteros</text>
+    <text x="682" y="494" fill="#8FA6B2" font-size="11.5">Direcciones, aritmética, punteros a función</text>
+    <rect x="1028" y="454" width="84" height="24" rx="12" fill="#12312F" stroke="#2A9D8F"/>
+    <text x="1070" y="470" fill="#8FD3C9" font-size="11" text-anchor="middle">18 h</text>
+    <text x="642" y="526" fill="#8FA6B2" font-size="11.5">ptsimple · ptcambio · ptoarray · ptfuncio</text>
+    <text x="642" y="548" fill="#5B7C99" font-size="11">Bloque más extenso: 159.txt–254.txt</text>
+
+    <!-- Block 7 -->
+    <rect x="64" y="592" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="64" y="592" width="5" height="136" rx="2.5" fill="#5B7C99"/>
+    <circle cx="100" cy="626" r="17" fill="#102A33" stroke="#5B7C99"/>
+    <text x="100" y="631" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">07</text>
+    <text x="130" y="624" fill="#E6F0F3" font-size="17" font-weight="600">Estructuras</text>
+    <text x="130" y="646" fill="#8FA6B2" font-size="11.5">struct, typedef, arreglos de estructuras</text>
+    <rect x="476" y="606" width="84" height="24" rx="12" fill="#13323D" stroke="#5B7C99"/>
+    <text x="518" y="622" fill="#A9C6D6" font-size="11" text-anchor="middle">14 h</text>
+    <text x="90" y="678" fill="#8FA6B2" font-size="11.5">struc1–struc11 · proveedo · tarea</text>
+    <text x="90" y="700" fill="#5B7C99" font-size="11">Anidamiento, punteros a struct y menús</text>
+
+    <!-- Block 8 -->
+    <rect x="616" y="592" width="520" height="136" rx="16" fill="#0B1E26" stroke="#24404A" stroke-width="1.5"/>
+    <rect x="616" y="592" width="5" height="136" rx="2.5" fill="#2A9D8F"/>
+    <circle cx="652" cy="626" r="17" fill="#132F2D" stroke="#2A9D8F"/>
+    <text x="652" y="631" fill="#D7E3E8" font-size="12" text-anchor="middle" font-weight="700">08</text>
+    <text x="682" y="624" fill="#E6F0F3" font-size="17" font-weight="600">Proyecto integrador</text>
+    <text x="682" y="646" fill="#8FA6B2" font-size="11.5">Menú, struct, validación y persistencia</text>
+    <rect x="1028" y="606" width="84" height="24" rx="12" fill="#12312F" stroke="#2A9D8F"/>
+    <text x="1070" y="622" fill="#8FD3C9" font-size="11" text-anchor="middle">8 h</text>
+    <text x="642" y="678" fill="#8FA6B2" font-size="11.5">tarea.txt + fopen/fprintf/fscanf</text>
+    <text x="642" y="700" fill="#5B7C99" font-size="11">Cierre: agenda de contactos con archivos</text>
+
+    <!-- footer -->
+    <rect x="64" y="752" width="1072" height="34" rx="10" fill="#0B1E26" stroke="#1D353E"/>
+    <circle cx="84" cy="769" r="4" fill="#2A9D8F"/>
+    <text x="98" y="773" fill="#8FA6B2" font-size="11.5">Distribución sugerida · no es un cronograma oficial · 100 h nominales</text>
+    <text x="1116" y="773" fill="#5B7C99" font-size="11.5" text-anchor="end">C89 / Turbo C</text>
+  </g>
+</svg>
