@@ -205,6 +205,7 @@ h2{font-size:clamp(30px,4vw,46px);line-height:1.05;letter-spacing:-.04em;margin:
 
 </style>
 <link rel="stylesheet" href="assets/community.css?v=1">
+<link href="rec/player.css?v=1" rel="stylesheet"/>
 </head>
 <body>
 <header class="nav"><div class="wrap nav-in">
@@ -214,7 +215,8 @@ h2{font-size:clamp(30px,4vw,46px);line-height:1.05;letter-spacing:-.04em;margin:
     <a href="#versiones">Versiones</a>
       <a href="#acceso">Acceso</a>
     <a href="#stack">Stack</a>
-    <a href="#docs">Docs</a>
+    <a href="#video">Video</a>
+<a href="#docs">Docs</a>
     <a href="#comunidad">Comunidad</a>
     <a class="btn btn-ghost" style="padding:9px 15px" href="/software/">← Software</a>
   </nav>
@@ -238,7 +240,46 @@ h2{font-size:clamp(30px,4vw,46px);line-height:1.05;letter-spacing:-.04em;margin:
   </div>
 </div></section>
 
-<section class="stats"><div class="wrap stats-grid"><div class="stat"><div class="stat-num">2</div><div class="stat-label">versiones</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">pública</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">privada</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">licencia</div></div></div></section><section class="section tight"><div class="wrap"><div class="section-head reveal"><div class="kicker">El concepto</div><h2>Qué es y por qué existe</h2></div><div class="rich reveal"><p>Archivo de dos cursos de programación conservados como paquetes ZIP: uno de Java, con 44 fuentes, 47 clases compiladas y 19 módulos Maven, y otro de lenguaje C de cien horas, con 129 archivos de código en estilo Turbo C. No es una plataforma de e-learning ni un curso interactivo, sino el material original empaquetado para consulta y descarga.</p><p>El repositorio interesa a docentes y estudiantes que quieran revisar ejercicios, estructuras y progresiones didácticas de principios de los años dos mil. Los ZIP se conservan inmutables, con hash SHA-256 documentado, y el README advierte que el material no fue compilado ni ejecutado: es un archivo histórico, no una versión modernizada. Solo el curso de Java es público; el de C se solicita.</p></div></div></section><section class="section tight"><div class="wrap"><div class="section-head reveal"><div class="kicker">El proyecto en detalle</div><h2>Documentación preservada</h2><p class="section-sub">El README original, completo y en su contexto.</p></div><div class="detail rich reveal">
+<section class="stats"><div class="wrap stats-grid"><div class="stat"><div class="stat-num">2</div><div class="stat-label">versiones</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">pública</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">privada</div></div><div class="stat"><div class="stat-num">1</div><div class="stat-label">licencia</div></div></div></section>
+<section class="section tight rec-section" id="video" style="--accent:#2E7DFF;--accent2:#14F195">
+<div class="wrap">
+<div class="rec-kicker">REC · VIDEO · 2:53</div>
+<h2 class="rec-h2">Cursos de programación: dos cursos, dos archivos</h2>
+<p class="rec-lead">Recorrido por cursos-programacion: el contrato del archivo, los ZIP verificados con SHA-256, el widget de comunidad y cómo servir el sitio en local.</p>
+<div class="rec-banner">
+<span class="rec-banner-icon">📋</span>
+<strong>Puedes copiar y pegar los comandos del video desde el video !!!</strong>
+<span>Pausá, seleccioná el texto de la terminal y copiá.</span>
+</div>
+<div class="rec-shell">
+<div class="rec-bar"><i></i><i></i><i></i><span class="rec-title">Cursos de programación: dos cursos, dos archivos · asciinema</span><span class="rec-rec"><b></b>REC</span></div>
+<div class="rec-screen-wrap">
+<div class="rec-screen" id="rec-screen"></div>
+<div class="rec-poster" id="rec-poster">
+<div class="rec-kicker">ASCIINEMA · 2:53</div>
+<h3>Cursos de programación: dos cursos, dos archivos</h3>
+<p>Recorrido por cursos-programacion: el contrato del archivo, los ZIP verificados con SHA-256, el widget de comunidad y cómo servir el sitio en local.</p>
+<div class="rec-poster-meta">cursos-programacion · código real</div>
+<button class="rec-btn rec-primary" id="rec-start" type="button">▶ Reproducir</button>
+</div>
+</div>
+<div class="rec-controls">
+<button class="rec-btn rec-primary" id="rec-play" type="button">▶ Reproducir</button>
+<button class="rec-btn" id="rec-restart" type="button">↺ Reiniciar</button>
+<input class="rec-progress" id="rec-range" type="range" min="0" max="1000" value="0" aria-label="Progreso"/>
+<span class="rec-time" id="rec-time">0:00 / 2:53</span>
+<select class="rec-speed" id="rec-speed" aria-label="Velocidad"><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+<button class="rec-btn" id="rec-full" type="button" title="Pantalla completa">⛶</button>
+<button class="rec-btn" id="rec-copy" type="button">⧉ Copiar comandos</button>
+<a class="rec-download" href="rec/cursos-programacion.cast" download>descargar .cast</a>
+</div>
+</div>
+<p class="rec-note">Fragmentos literales de README.md, docs/index.html y docs/assets/community.js. El ZIP del curso de C no está en el repositorio público: se entrega por solicitud.</p>
+<div class="rec-chapters"><span class="rec-chip"><b>0:06</b> EL ARCHIVO</span><span class="rec-chip"><b>0:21</b> EL SITIO</span><span class="rec-chip"><b>0:35</b> EL CONTENIDO</span><span class="rec-chip"><b>0:49</b> CÓMO DESCOMPRIMIR</span><span class="rec-chip"><b>1:03</b> INTEGRIDAD</span><span class="rec-chip"><b>1:18</b> ALCANCE</span><span class="rec-chip"><b>1:33</b> COMUNIDAD</span><span class="rec-chip"><b>1:46</b> SIN RED</span><span class="rec-chip"><b>2:01</b> CONTADOR</span><span class="rec-chip"><b>2:17</b> RECONOCIMIENTO</span><span class="rec-chip"><b>2:32</b> PUBLICARLO</span></div>
+</div>
+</section>
+
+<section class="section tight"><div class="wrap"><div class="section-head reveal"><div class="kicker">El concepto</div><h2>Qué es y por qué existe</h2></div><div class="rich reveal"><p>Archivo de dos cursos de programación conservados como paquetes ZIP: uno de Java, con 44 fuentes, 47 clases compiladas y 19 módulos Maven, y otro de lenguaje C de cien horas, con 129 archivos de código en estilo Turbo C. No es una plataforma de e-learning ni un curso interactivo, sino el material original empaquetado para consulta y descarga.</p><p>El repositorio interesa a docentes y estudiantes que quieran revisar ejercicios, estructuras y progresiones didácticas de principios de los años dos mil. Los ZIP se conservan inmutables, con hash SHA-256 documentado, y el README advierte que el material no fue compilado ni ejecutado: es un archivo histórico, no una versión modernizada. Solo el curso de Java es público; el de C se solicita.</p></div></div></section><section class="section tight"><div class="wrap"><div class="section-head reveal"><div class="kicker">El proyecto en detalle</div><h2>Documentación preservada</h2><p class="section-sub">El README original, completo y en su contexto.</p></div><div class="detail rich reveal">
 <p align="center">
 <img alt="Arquitectura del repositorio: dos cursos empaquetados en versions/ y documentación en docs/" loading="lazy" src="rich/01-arquitectura.svg" width="880"/>
 </p>
@@ -1226,5 +1267,7 @@ cp ~/cursos/c/"Laboratorio Curso Lenguaje C"/0.txt ./00-variables.c
 <script>window.PORTFOLIO_COMMUNITY={account:"jmadasme",repo:"cursos-programacion",coinNamespace:"jmadasme-cursos-programacion-coins-v1",faqs:[{"q": "¿Los cursos están actualizados?", "a": "Se conservan como material original. Algunas prácticas pueden usar versiones antiguas de Java o C."}, {"q": "¿Necesito instalar algo?", "a": "Sí: JDK para Java o un compilador de C. El README de cada curso indica lo mínimo."}, {"q": "¿Por qué están en ZIP?", "a": "Para preservar el paquete original del curso y evitar alterar su estructura."}, {"q": "¿Incluyen soluciones?", "a": "El material incluye laboratorios y ejemplos; no se garantiza que todos los ejercicios tengan solución publicada."}, {"q": "¿Puedo usarlos para enseñar?", "a": "Sí, con licencia MIT y atribución. Revisá que el material de terceros conserve sus condiciones."}]};</script>
 <script src="assets/community.js?v=2" defer></script>
 
+<script defer src="rec/cursos-programacion.cast.js?v=1"></script>
+<script defer src="rec/player.js?v=1"></script>
 </body>
 </html>
